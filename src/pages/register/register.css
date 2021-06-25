@@ -1,0 +1,56 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url(https://i1.pickpik.com/photos/207/985/289/coffee-caffeine-food-beverage-preview.jpg);
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.registerForm label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registerLoinButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
